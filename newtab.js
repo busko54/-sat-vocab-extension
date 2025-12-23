@@ -100,3 +100,22 @@ document.getElementById('pronounceBtn').addEventListener('click', pronounceWord)
 document.getElementById('nextBtn').addEventListener('click', nextWord);
 
 init();
+
+// Auto-hide vocab overlay after 7 seconds
+setTimeout(() => {
+  document.getElementById('vocabOverlay').classList.add('hidden');
+  document.getElementById('normalTab').classList.add('visible');
+  document.getElementById('searchBox').focus();
+}, 7000);
+
+// Handle search
+document.getElementById('searchBox').addEventListener('keypress', (e) => {
+  if (e.key === 'Enter') {
+    const query = e.target.value;
+    if (query.includes('.') && !query.includes(' ')) {
+      window.location.href = 'https://' + query;
+    } else {
+      window.location.href = 'https://www.google.com/search?q=' + encodeURIComponent(query);
+    }
+  }
+});
