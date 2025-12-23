@@ -98,6 +98,11 @@ function nextWord() {
 
 document.getElementById('pronounceBtn').addEventListener('click', pronounceWord);
 document.getElementById('nextBtn').addEventListener('click', nextWord);
+document.getElementById('skipBtn').addEventListener('click', () => {
+  document.getElementById('vocabOverlay').classList.add('hidden');
+  document.getElementById('normalTab').classList.add('visible');
+  document.getElementById('searchBox').focus();
+});
 
 init();
 
