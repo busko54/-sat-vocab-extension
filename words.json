@@ -1,62 +1,688 @@
 [
   {
-    "word": "Aberration",
-    "pronunciation": "ab-uh-REY-shuhn",
-    "definition": "A departure from what is normal or expected",
-    "example": "The cold weather in July was an aberration for this region."
+    "word": "Abate",
+    "pronunciation": "uh-BEYT",
+    "definition": "To reduce in amount, degree, or intensity",
+    "example": "The storm finally began to abate after three hours.",
+    "level": "easy"
+  },
+  {
+    "word": "Aberrant",
+    "pronunciation": "ab-ER-uhnt",
+    "definition": "Departing from the normal or expected",
+    "example": "His aberrant behavior worried his friends.",
+    "level": "medium"
+  },
+  {
+    "word": "Abhor",
+    "pronunciation": "ab-HOR",
+    "definition": "To regard with disgust and hatred",
+    "example": "She abhors violence in any form.",
+    "level": "easy"
+  },
+  {
+    "word": "Abscond",
+    "pronunciation": "ab-SKOND",
+    "definition": "To leave hurriedly and secretly to avoid detection",
+    "example": "The thief absconded with the money.",
+    "level": "medium"
+  },
+  {
+    "word": "Abstemious",
+    "pronunciation": "ab-STEE-mee-uhs",
+    "definition": "Not self-indulgent, especially in eating and drinking",
+    "example": "His abstemious habits kept him healthy.",
+    "level": "hard"
+  },
+  {
+    "word": "Accolade",
+    "pronunciation": "AK-uh-layd",
+    "definition": "An award or privilege granted as a special honor",
+    "example": "The scientist received many accolades for her work.",
+    "level": "easy"
   },
   {
     "word": "Acumen",
     "pronunciation": "uh-KYOO-muhn",
-    "definition": "The ability to make good judgments and quick decisions",
-    "example": "Her business acumen helped the startup succeed."
+    "definition": "The ability to make good judgments quickly",
+    "example": "Her business acumen made her successful.",
+    "level": "medium"
+  },
+  {
+    "word": "Adamant",
+    "pronunciation": "AD-uh-muhnt",
+    "definition": "Refusing to change one's mind",
+    "example": "He was adamant that they leave immediately.",
+    "level": "easy"
+  },
+  {
+    "word": "Admonish",
+    "pronunciation": "ad-MON-ish",
+    "definition": "To warn or reprimand someone firmly",
+    "example": "The teacher admonished the students for cheating.",
+    "level": "easy"
+  },
+  {
+    "word": "Adroit",
+    "pronunciation": "uh-DROIT",
+    "definition": "Clever or skillful",
+    "example": "She was adroit at handling difficult customers.",
+    "level": "medium"
+  },
+  {
+    "word": "Aesthetic",
+    "pronunciation": "es-THET-ik",
+    "definition": "Concerned with beauty or art",
+    "example": "The building had great aesthetic appeal.",
+    "level": "easy"
+  },
+  {
+    "word": "Affable",
+    "pronunciation": "AF-uh-buhl",
+    "definition": "Friendly and easy to talk to",
+    "example": "The affable host made everyone feel welcome.",
+    "level": "medium"
   },
   {
     "word": "Alacrity",
     "pronunciation": "uh-LAK-ri-tee",
-    "definition": "Brisk and cheerful readiness",
-    "example": "She accepted the challenge with alacrity."
+    "definition": "Cheerful readiness or willingness",
+    "example": "She accepted the challenge with alacrity.",
+    "level": "medium"
+  },
+  {
+    "word": "Alleviate",
+    "pronunciation": "uh-LEE-vee-eyt",
+    "definition": "To make something less severe",
+    "example": "The medicine alleviated her pain.",
+    "level": "easy"
+  },
+  {
+    "word": "Altruistic",
+    "pronunciation": "al-troo-IS-tik",
+    "definition": "Showing selfless concern for others",
+    "example": "Her altruistic actions helped many people.",
+    "level": "medium"
+  },
+  {
+    "word": "Ambiguous",
+    "pronunciation": "am-BIG-yoo-uhs",
+    "definition": "Open to more than one interpretation",
+    "example": "His ambiguous answer confused everyone.",
+    "level": "easy"
   },
   {
     "word": "Ambivalent",
     "pronunciation": "am-BIV-uh-luhnt",
     "definition": "Having mixed feelings about something",
-    "example": "She felt ambivalent about moving to a new city."
+    "example": "She felt ambivalent about the job offer.",
+    "level": "medium"
   },
   {
     "word": "Ameliorate",
     "pronunciation": "uh-MEEL-yuh-reyt",
-    "definition": "To make something bad better",
-    "example": "The new policy ameliorated working conditions."
+    "definition": "To make something better",
+    "example": "The new policy ameliorated working conditions.",
+    "level": "medium"
+  },
+  {
+    "word": "Amiable",
+    "pronunciation": "AY-mee-uh-buhl",
+    "definition": "Having a friendly and pleasant manner",
+    "example": "He was an amiable companion on the trip.",
+    "level": "easy"
+  },
+  {
+    "word": "Anachronistic",
+    "pronunciation": "uh-nak-ruh-NIS-tik",
+    "definition": "Belonging to a different time period",
+    "example": "Using a typewriter seems anachronistic today.",
+    "level": "hard"
+  },
+  {
+    "word": "Anomaly",
+    "pronunciation": "uh-NOM-uh-lee",
+    "definition": "Something that deviates from what is normal",
+    "example": "The warm December weather was an anomaly.",
+    "level": "medium"
+  },
+  {
+    "word": "Antipathy",
+    "pronunciation": "an-TIP-uh-thee",
+    "definition": "A deep-seated feeling of dislike",
+    "example": "She felt antipathy toward dishonesty.",
+    "level": "hard"
+  },
+  {
+    "word": "Apathy",
+    "pronunciation": "AP-uh-thee",
+    "definition": "Lack of interest or concern",
+    "example": "Voter apathy led to low election turnout.",
+    "level": "easy"
+  },
+  {
+    "word": "Appease",
+    "pronunciation": "uh-PEEZ",
+    "definition": "To pacify someone by giving in to demands",
+    "example": "He tried to appease his angry boss.",
+    "level": "medium"
+  },
+  {
+    "word": "Arbitrary",
+    "pronunciation": "AHR-bi-trer-ee",
+    "definition": "Based on random choice rather than reason",
+    "example": "The decision seemed arbitrary and unfair.",
+    "level": "medium"
+  },
+  {
+    "word": "Arcane",
+    "pronunciation": "ahr-KAYN",
+    "definition": "Known or understood by very few; mysterious",
+    "example": "The ritual involved arcane symbols.",
+    "level": "hard"
   },
   {
     "word": "Arduous",
     "pronunciation": "AHR-joo-uhs",
-    "definition": "Involving or requiring strenuous effort; difficult",
-    "example": "The arduous climb to the summit took five hours."
+    "definition": "Involving great effort; difficult",
+    "example": "The arduous hike lasted six hours.",
+    "level": "medium"
+  },
+  {
+    "word": "Articulate",
+    "pronunciation": "ahr-TIK-yuh-lit",
+    "definition": "Having the ability to speak fluently",
+    "example": "She was an articulate public speaker.",
+    "level": "easy"
+  },
+  {
+    "word": "Ascetic",
+    "pronunciation": "uh-SET-ik",
+    "definition": "Practicing severe self-discipline and avoiding indulgence",
+    "example": "The monk led an ascetic lifestyle.",
+    "level": "hard"
+  },
+  {
+    "word": "Assuage",
+    "pronunciation": "uh-SWAYJ",
+    "definition": "To make something unpleasant less intense",
+    "example": "He tried to assuage her fears.",
+    "level": "hard"
+  },
+  {
+    "word": "Astute",
+    "pronunciation": "uh-STOOT",
+    "definition": "Having the ability to accurately assess situations",
+    "example": "Her astute observations helped solve the case.",
+    "level": "medium"
+  },
+  {
+    "word": "Audacious",
+    "pronunciation": "aw-DAY-shuhs",
+    "definition": "Showing a willingness to take bold risks",
+    "example": "His audacious plan shocked everyone.",
+    "level": "medium"
   },
   {
     "word": "Austere",
     "pronunciation": "aw-STEER",
     "definition": "Severe or strict in manner; without luxury",
-    "example": "The monastery had austere living conditions."
+    "example": "The room had an austere appearance.",
+    "level": "medium"
+  },
+  {
+    "word": "Avarice",
+    "pronunciation": "AV-er-is",
+    "definition": "Extreme greed for wealth",
+    "example": "His avarice led to his downfall.",
+    "level": "hard"
+  },
+  {
+    "word": "Banal",
+    "pronunciation": "buh-NAL",
+    "definition": "Lacking originality; boring",
+    "example": "The movie's plot was disappointingly banal.",
+    "level": "medium"
+  },
+  {
+    "word": "Belligerent",
+    "pronunciation": "buh-LIJ-er-uhnt",
+    "definition": "Hostile and aggressive",
+    "example": "His belligerent attitude ruined the discussion.",
+    "level": "medium"
   },
   {
     "word": "Benevolent",
     "pronunciation": "buh-NEV-uh-luhnt",
     "definition": "Well-meaning and kindly",
-    "example": "The benevolent donor gave millions to charity."
+    "example": "The benevolent king cared for his people.",
+    "level": "medium"
+  },
+  {
+    "word": "Benign",
+    "pronunciation": "bih-NYNE",
+    "definition": "Gentle and harmless",
+    "example": "The doctor confirmed the tumor was benign.",
+    "level": "easy"
+  },
+  {
+    "word": "Bolster",
+    "pronunciation": "BOHL-ster",
+    "definition": "To support or strengthen",
+    "example": "The evidence bolstered their argument.",
+    "level": "medium"
+  },
+  {
+    "word": "Bombastic",
+    "pronunciation": "bom-BAS-tik",
+    "definition": "High-sounding but with little meaning",
+    "example": "His bombastic speech failed to impress.",
+    "level": "hard"
+  },
+  {
+    "word": "Brevity",
+    "pronunciation": "BREV-i-tee",
+    "definition": "Concise and exact use of words",
+    "example": "The brevity of her speech was appreciated.",
+    "level": "medium"
+  },
+  {
+    "word": "Callous",
+    "pronunciation": "KAL-uhs",
+    "definition": "Showing cruel disregard for others",
+    "example": "His callous remarks hurt her feelings.",
+    "level": "medium"
+  },
+  {
+    "word": "Candid",
+    "pronunciation": "KAN-did",
+    "definition": "Truthful and straightforward",
+    "example": "I appreciate your candid feedback.",
+    "level": "easy"
   },
   {
     "word": "Capricious",
     "pronunciation": "kuh-PRISH-uhs",
-    "definition": "Given to sudden changes of mood or behavior",
-    "example": "The capricious weather ruined our picnic plans."
+    "definition": "Given to sudden changes of mood",
+    "example": "The capricious weather ruined our plans.",
+    "level": "medium"
+  },
+  {
+    "word": "Castigate",
+    "pronunciation": "KAS-ti-gayt",
+    "definition": "To reprimand severely",
+    "example": "The coach castigated the team for poor effort.",
+    "level": "hard"
+  },
+  {
+    "word": "Catalyst",
+    "pronunciation": "KAT-l-ist",
+    "definition": "Something that causes an important event",
+    "example": "The scandal was the catalyst for reform.",
+    "level": "medium"
+  },
+  {
+    "word": "Caustic",
+    "pronunciation": "KAW-stik",
+    "definition": "Sarcastic in a bitter way",
+    "example": "Her caustic comments were hurtful.",
+    "level": "hard"
+  },
+  {
+    "word": "Censure",
+    "pronunciation": "SEN-sher",
+    "definition": "To express severe disapproval",
+    "example": "The senator was censured for misconduct.",
+    "level": "medium"
+  },
+  {
+    "word": "Charlatan",
+    "pronunciation": "SHAHR-luh-tn",
+    "definition": "A person falsely claiming special knowledge",
+    "example": "The supposed healer was a charlatan.",
+    "level": "hard"
+  },
+  {
+    "word": "Circumspect",
+    "pronunciation": "SUR-kuhm-spekt",
+    "definition": "Wary and unwilling to take risks",
+    "example": "She was circumspect about the investment.",
+    "level": "hard"
+  },
+  {
+    "word": "Coalesce",
+    "pronunciation": "koh-uh-LES",
+    "definition": "To come together to form one mass",
+    "example": "The groups coalesced into a movement.",
+    "level": "hard"
+  },
+  {
+    "word": "Coerce",
+    "pronunciation": "koh-URS",
+    "definition": "To persuade someone using force or threats",
+    "example": "They were coerced into signing.",
+    "level": "medium"
+  },
+  {
+    "word": "Cogent",
+    "pronunciation": "KOH-juhnt",
+    "definition": "Clear, logical, and convincing",
+    "example": "She made a cogent argument.",
+    "level": "hard"
+  },
+  {
+    "word": "Coherent",
+    "pronunciation": "koh-HEER-uhnt",
+    "definition": "Logical and consistent",
+    "example": "He gave a coherent explanation.",
+    "level": "easy"
+  },
+  {
+    "word": "Complacent",
+    "pronunciation": "kuhm-PLAY-suhnt",
+    "definition": "Showing smug satisfaction with oneself",
+    "example": "Don't be complacent about security.",
+    "level": "medium"
+  },
+  {
+    "word": "Concise",
+    "pronunciation": "kuhn-SYSE",
+    "definition": "Giving information clearly in few words",
+    "example": "Please provide a concise summary.",
+    "level": "easy"
+  },
+  {
+    "word": "Condescending",
+    "pronunciation": "kon-dih-SEN-ding",
+    "definition": "Acting superior to others",
+    "example": "His condescending tone was insulting.",
+    "level": "medium"
+  },
+  {
+    "word": "Condone",
+    "pronunciation": "kuhn-DOHN",
+    "definition": "To accept behavior that is considered wrong",
+    "example": "The school doesn't condone bullying.",
+    "level": "medium"
+  },
+  {
+    "word": "Contentious",
+    "pronunciation": "kuhn-TEN-shuhs",
+    "definition": "Causing or likely to cause argument",
+    "example": "Taxes are always a contentious issue.",
+    "level": "medium"
+  },
+  {
+    "word": "Contrived",
+    "pronunciation": "kuhn-TRYVD",
+    "definition": "Deliberately created; artificial",
+    "example": "The plot twist felt contrived.",
+    "level": "medium"
+  },
+  {
+    "word": "Conviction",
+    "pronunciation": "kuhn-VIK-shuhn",
+    "definition": "A firmly held belief",
+    "example": "She spoke with great conviction.",
+    "level": "easy"
+  },
+  {
+    "word": "Copious",
+    "pronunciation": "KOH-pee-uhs",
+    "definition": "Abundant in supply",
+    "example": "She took copious notes.",
+    "level": "medium"
   },
   {
     "word": "Corroborate",
     "pronunciation": "kuh-ROB-uh-reyt",
-    "definition": "To confirm or give support to a statement or theory",
-    "example": "The witness was able to corroborate the suspect's alibi."
+    "definition": "To confirm or support with evidence",
+    "example": "The witness corroborated his story.",
+    "level": "medium"
+  },
+  {
+    "word": "Credible",
+    "pronunciation": "KRED-uh-buhl",
+    "definition": "Able to be believed; convincing",
+    "example": "She gave a credible explanation.",
+    "level": "easy"
+  },
+  {
+    "word": "Credulous",
+    "pronunciation": "KREJ-uh-luhs",
+    "definition": "Too ready to believe things",
+    "example": "The credulous child believed everything.",
+    "level": "hard"
+  },
+  {
+    "word": "Cryptic",
+    "pronunciation": "KRIP-tik",
+    "definition": "Having a mysterious meaning",
+    "example": "He left a cryptic message.",
+    "level": "medium"
+  },
+  {
+    "word": "Cursory",
+    "pronunciation": "KUR-suh-ree",
+    "definition": "Hasty and not thorough",
+    "example": "He gave it only a cursory glance.",
+    "level": "hard"
+  },
+  {
+    "word": "Cynical",
+    "pronunciation": "SIN-i-kuhl",
+    "definition": "Distrustful of human sincerity",
+    "example": "She became cynical after the scandal.",
+    "level": "medium"
+  },
+  {
+    "word": "Daunt",
+    "pronunciation": "DAWNT",
+    "definition": "To make someone feel intimidated",
+    "example": "The challenge didn't daunt her.",
+    "level": "medium"
+  },
+  {
+    "word": "Debacle",
+    "pronunciation": "dih-BAH-kuhl",
+    "definition": "A sudden and complete failure",
+    "example": "The launch was a complete debacle.",
+    "level": "medium"
+  },
+  {
+    "word": "Defer",
+    "pronunciation": "dih-FUR",
+    "definition": "To put off to a later time",
+    "example": "We deferred the decision until Monday.",
+    "level": "medium"
+  },
+  {
+    "word": "Defiant",
+    "pronunciation": "dih-FY-uhnt",
+    "definition": "Showing open resistance",
+    "example": "The child gave a defiant look.",
+    "level": "medium"
+  },
+  {
+    "word": "Deliberate",
+    "pronunciation": "dih-LIB-er-it",
+    "definition": "Done intentionally",
+    "example": "It was a deliberate lie.",
+    "level": "easy"
+  },
+  {
+    "word": "Delineate",
+    "pronunciation": "dih-LIN-ee-ayt",
+    "definition": "To describe precisely",
+    "example": "The report delineates the problems.",
+    "level": "hard"
+  },
+  {
+    "word": "Demeanor",
+    "pronunciation": "dih-MEE-ner",
+    "definition": "Outward behavior or bearing",
+    "example": "Her calm demeanor was reassuring.",
+    "level": "medium"
+  },
+  {
+    "word": "Denounce",
+    "pronunciation": "dih-NOWNS",
+    "definition": "To publicly declare as wrong",
+    "example": "They denounced the violence.",
+    "level": "medium"
+  },
+  {
+    "word": "Depict",
+    "pronunciation": "dih-PIKT",
+    "definition": "To show or represent",
+    "example": "The painting depicts a sunset.",
+    "level": "easy"
+  },
+  {
+    "word": "Deride",
+    "pronunciation": "dih-RYDE",
+    "definition": "To express contempt for; ridicule",
+    "example": "Critics derided the plan.",
+    "level": "hard"
+  },
+  {
+    "word": "Despondent",
+    "pronunciation": "dih-SPON-duhnt",
+    "definition": "In low spirits from loss of hope",
+    "example": "He was despondent after the loss.",
+    "level": "medium"
+  },
+  {
+    "word": "Deter",
+    "pronunciation": "dih-TUR",
+    "definition": "To discourage from doing something",
+    "example": "The alarm deters burglars.",
+    "level": "medium"
+  },
+  {
+    "word": "Detrimental",
+    "pronunciation": "det-ruh-MEN-tl",
+    "definition": "Tending to cause harm",
+    "example": "Smoking is detrimental to health.",
+    "level": "medium"
+  },
+  {
+    "word": "Devoid",
+    "pronunciation": "dih-VOID",
+    "definition": "Entirely lacking",
+    "example": "The room was devoid of furniture.",
+    "level": "medium"
+  },
+  {
+    "word": "Didactic",
+    "pronunciation": "dy-DAK-tik",
+    "definition": "Intended to teach",
+    "example": "The story has a didactic tone.",
+    "level": "hard"
+  },
+  {
+    "word": "Diffident",
+    "pronunciation": "DIF-i-duhnt",
+    "definition": "Modest or shy from lack of confidence",
+    "example": "She was diffident about her abilities.",
+    "level": "hard"
+  },
+  {
+    "word": "Dilapidated",
+    "pronunciation": "dih-LAP-i-day-tid",
+    "definition": "In a state of ruin",
+    "example": "The dilapidated building collapsed.",
+    "level": "medium"
+  },
+  {
+    "word": "Dilemma",
+    "pronunciation": "dih-LEM-uh",
+    "definition": "A difficult choice between two options",
+    "example": "She faced a moral dilemma.",
+    "level": "easy"
+  },
+  {
+    "word": "Diligent",
+    "pronunciation": "DIL-i-juhnt",
+    "definition": "Showing care and effort",
+    "example": "She was a diligent student.",
+    "level": "easy"
+  },
+  {
+    "word": "Discern",
+    "pronunciation": "dih-SURN",
+    "definition": "To perceive or recognize",
+    "example": "It was hard to discern the truth.",
+    "level": "medium"
+  },
+  {
+    "word": "Discreet",
+    "pronunciation": "dis-KREET",
+    "definition": "Careful in speech or actions",
+    "example": "Please be discreet about this.",
+    "level": "medium"
+  },
+  {
+    "word": "Disdain",
+    "pronunciation": "dis-DAYN",
+    "definition": "The feeling that something is unworthy",
+    "example": "She looked at him with disdain.",
+    "level": "medium"
+  },
+  {
+    "word": "Disparage",
+    "pronunciation": "dis-PAR-ij",
+    "definition": "To regard as being of little worth",
+    "example": "Don't disparage his efforts.",
+    "level": "hard"
+  },
+  {
+    "word": "Disparity",
+    "pronunciation": "dis-PAR-i-tee",
+    "definition": "A great difference",
+    "example": "There's a disparity in wages.",
+    "level": "medium"
+  },
+  {
+    "word": "Dissent",
+    "pronunciation": "dih-SENT",
+    "definition": "To hold opinions that differ from official ones",
+    "example": "One judge dissented.",
+    "level": "medium"
+  },
+  {
+    "word": "Dissuade",
+    "pronunciation": "dih-SWAYD",
+    "definition": "To persuade someone not to do something",
+    "example": "I tried to dissuade him from quitting.",
+    "level": "medium"
+  },
+  {
+    "word": "Diverge",
+    "pronunciation": "dy-VURJ",
+    "definition": "To go in different directions",
+    "example": "The paths diverge at the river.",
+    "level": "medium"
+  },
+  {
+    "word": "Diverse",
+    "pronunciation": "dy-VURS",
+    "definition": "Showing a great deal of variety",
+    "example": "The city has a diverse population.",
+    "level": "easy"
+  },
+  {
+    "word": "Docile",
+    "pronunciation": "DOS-uhl",
+    "definition": "Ready to accept control; submissive",
+    "example": "The horse was surprisingly docile.",
+    "level": "medium"
+  },
+  {
+    "word": "Dogmatic",
+    "pronunciation": "dawg-MAT-ik",
+    "definition": "Laying down principles as absolutely true",
+    "example": "She was dogmatic in her beliefs.",
+    "level": "medium"
   }
 ]
