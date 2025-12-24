@@ -685,4 +685,684 @@
     "example": "She was dogmatic in her beliefs.",
     "level": "medium"
   }
+{
+    "word": "Dormant",
+    "pronunciation": "DOR-muhnt",
+    "definition": "Temporarily inactive or at rest",
+    "example": "The volcano has been dormant for decades.",
+    "level": "medium"
+  },
+  {
+    "word": "Dubious",
+    "pronunciation": "DOO-bee-uhs",
+    "definition": "Hesitating or doubting; questionable",
+    "example": "I'm dubious about his claims.",
+    "level": "medium"
+  },
+  {
+    "word": "Duplicity",
+    "pronunciation": "doo-PLIS-i-tee",
+    "definition": "Deceitfulness; double-dealing",
+    "example": "His duplicity was finally exposed.",
+    "level": "hard"
+  },
+  {
+    "word": "Earnest",
+    "pronunciation": "UR-nist",
+    "definition": "Showing sincere and intense conviction",
+    "example": "She made an earnest attempt to help.",
+    "level": "easy"
+  },
+  {
+    "word": "Ebullient",
+    "pronunciation": "ih-BUHL-yuhnt",
+    "definition": "Cheerful and full of energy",
+    "example": "Her ebullient personality was contagious.",
+    "level": "hard"
+  },
+  {
+    "word": "Eccentric",
+    "pronunciation": "ik-SEN-trik",
+    "definition": "Unconventional and slightly strange",
+    "example": "The professor was known for his eccentric habits.",
+    "level": "medium"
+  },
+  {
+    "word": "Eclectic",
+    "pronunciation": "ih-KLEK-tik",
+    "definition": "Deriving ideas from various sources",
+    "example": "She has eclectic taste in music.",
+    "level": "medium"
+  },
+  {
+    "word": "Efficacious",
+    "pronunciation": "ef-ih-KAY-shuhs",
+    "definition": "Successful in producing a desired result",
+    "example": "The treatment was highly efficacious.",
+    "level": "hard"
+  },
+  {
+    "word": "Effusive",
+    "pronunciation": "ih-FYOO-siv",
+    "definition": "Expressing feelings in an unrestrained manner",
+    "example": "She was effusive in her praise.",
+    "level": "hard"
+  },
+  {
+    "word": "Egregious",
+    "pronunciation": "ih-GREE-juhs",
+    "definition": "Outstandingly bad; shocking",
+    "example": "It was an egregious error in judgment.",
+    "level": "hard"
+  },
+  {
+    "word": "Elated",
+    "pronunciation": "ih-LAY-tid",
+    "definition": "Extremely happy and excited",
+    "example": "She was elated at receiving the scholarship.",
+    "level": "easy"
+  },
+  {
+    "word": "Elicit",
+    "pronunciation": "ih-LIS-it",
+    "definition": "To draw out or evoke a response",
+    "example": "The question elicited strong reactions.",
+    "level": "medium"
+  },
+  {
+    "word": "Eloquent",
+    "pronunciation": "EL-uh-kwuhnt",
+    "definition": "Fluent and persuasive in speaking",
+    "example": "The lawyer gave an eloquent closing argument.",
+    "level": "medium"
+  },
+  {
+    "word": "Elusive",
+    "pronunciation": "ih-LOO-siv",
+    "definition": "Difficult to find or catch",
+    "example": "The solution remained elusive.",
+    "level": "medium"
+  },
+  {
+    "word": "Emaciated",
+    "pronunciation": "ih-MAY-shee-ay-tid",
+    "definition": "Abnormally thin or weak",
+    "example": "The rescue dog was severely emaciated.",
+    "level": "medium"
+  },
+  {
+    "word": "Embellish",
+    "pronunciation": "em-BEL-ish",
+    "definition": "To make more attractive by adding details",
+    "example": "He embellished the story with fictional elements.",
+    "level": "medium"
+  },
+  {
+    "word": "Eminent",
+    "pronunciation": "EM-uh-nuhnt",
+    "definition": "Famous and respected",
+    "example": "She's an eminent scholar in her field.",
+    "level": "medium"
+  },
+  {
+    "word": "Empathy",
+    "pronunciation": "EM-puh-thee",
+    "definition": "The ability to understand others' feelings",
+    "example": "She showed great empathy for his situation.",
+    "level": "easy"
+  },
+  {
+    "word": "Empirical",
+    "pronunciation": "em-PEER-ih-kuhl",
+    "definition": "Based on observation or experience",
+    "example": "The study used empirical research methods.",
+    "level": "medium"
+  },
+  {
+    "word": "Emulate",
+    "pronunciation": "EM-yuh-layt",
+    "definition": "To match or surpass by imitation",
+    "example": "Young athletes emulate their heroes.",
+    "level": "medium"
+  },
+  {
+    "word": "Endorse",
+    "pronunciation": "en-DORS",
+    "definition": "To declare public approval or support",
+    "example": "The celebrity endorsed the product.",
+    "level": "easy"
+  },
+  {
+    "word": "Enhance",
+    "pronunciation": "en-HANS",
+    "definition": "To increase or improve the quality of",
+    "example": "The lighting enhances the ambiance.",
+    "level": "easy"
+  },
+  {
+    "word": "Enigma",
+    "pronunciation": "ih-NIG-muh",
+    "definition": "A person or thing that is mysterious",
+    "example": "She remains an enigma to her colleagues.",
+    "level": "medium"
+  },
+  {
+    "word": "Enmity",
+    "pronunciation": "EN-mi-tee",
+    "definition": "Active hostility or opposition",
+    "example": "There was deep enmity between the rivals.",
+    "level": "hard"
+  },
+  {
+    "word": "Ephemeral",
+    "pronunciation": "ih-FEM-er-uhl",
+    "definition": "Lasting for a very short time",
+    "example": "Youth is ephemeral.",
+    "level": "hard"
+  },
+  {
+    "word": "Epitome",
+    "pronunciation": "ih-PIT-uh-mee",
+    "definition": "A perfect example of something",
+    "example": "She is the epitome of elegance.",
+    "level": "medium"
+  },
+  {
+    "word": "Equitable",
+    "pronunciation": "EK-wi-tuh-buhl",
+    "definition": "Fair and impartial",
+    "example": "They reached an equitable agreement.",
+    "level": "medium"
+  },
+  {
+    "word": "Equivocal",
+    "pronunciation": "ih-KWIV-uh-kuhl",
+    "definition": "Open to multiple interpretations; ambiguous",
+    "example": "His equivocal answer satisfied no one.",
+    "level": "hard"
+  },
+  {
+    "word": "Eradicate",
+    "pronunciation": "ih-RAD-ih-kayt",
+    "definition": "To destroy completely",
+    "example": "Scientists hope to eradicate the disease.",
+    "level": "medium"
+  },
+  {
+    "word": "Erratic",
+    "pronunciation": "ih-RAT-ik",
+    "definition": "Not regular or predictable; unpredictable",
+    "example": "His behavior has been erratic lately.",
+    "level": "medium"
+  },
+  {
+    "word": "Erudite",
+    "pronunciation": "ER-yuh-dyt",
+    "definition": "Having great knowledge or learning",
+    "example": "The erudite professor impressed everyone.",
+    "level": "hard"
+  },
+  {
+    "word": "Eschew",
+    "pronunciation": "es-CHOO",
+    "definition": "To deliberately avoid or abstain from",
+    "example": "He eschewed all forms of social media.",
+    "level": "hard"
+  },
+  {
+    "word": "Esoteric",
+    "pronunciation": "es-uh-TER-ik",
+    "definition": "Understood by only a small group",
+    "example": "The lecture covered esoteric topics.",
+    "level": "hard"
+  },
+  {
+    "word": "Esteem",
+    "pronunciation": "ih-STEEM",
+    "definition": "Respect and admiration",
+    "example": "She's held in high esteem by peers.",
+    "level": "medium"
+  },
+  {
+    "word": "Ethical",
+    "pronunciation": "ETH-ih-kuhl",
+    "definition": "Morally good or correct",
+    "example": "The company follows ethical practices.",
+    "level": "easy"
+  },
+  {
+    "word": "Euphoria",
+    "pronunciation": "yoo-FOR-ee-uh",
+    "definition": "Intense happiness and excitement",
+    "example": "Winning brought a sense of euphoria.",
+    "level": "medium"
+  },
+  {
+    "word": "Evasive",
+    "pronunciation": "ih-VAY-siv",
+    "definition": "Tending to avoid commitment or clarity",
+    "example": "He gave evasive answers to the questions.",
+    "level": "medium"
+  },
+  {
+    "word": "Evoke",
+    "pronunciation": "ih-VOHK",
+    "definition": "To bring to mind or recall",
+    "example": "The song evokes childhood memories.",
+    "level": "medium"
+  },
+  {
+    "word": "Exacerbate",
+    "pronunciation": "ig-ZAS-er-bayt",
+    "definition": "To make a problem worse",
+    "example": "The drought exacerbated the food shortage.",
+    "level": "hard"
+  },
+  {
+    "word": "Exalt",
+    "pronunciation": "ig-ZAWLT",
+    "definition": "To hold in very high regard",
+    "example": "The community exalted him as a hero.",
+    "level": "medium"
+  },
+  {
+    "word": "Exasperate",
+    "pronunciation": "ig-ZAS-puh-rayt",
+    "definition": "To irritate intensely",
+    "example": "His constant interruptions exasperated her.",
+    "level": "medium"
+  },
+  {
+    "word": "Exemplary",
+    "pronunciation": "ig-ZEM-pluh-ree",
+    "definition": "Serving as a desirable model",
+    "example": "Her conduct was exemplary.",
+    "level": "medium"
+  },
+  {
+    "word": "Exhaustive",
+    "pronunciation": "ig-ZAW-stiv",
+    "definition": "Including all possibilities; comprehensive",
+    "example": "They conducted an exhaustive search.",
+    "level": "medium"
+  },
+  {
+    "word": "Exonerate",
+    "pronunciation": "ig-ZON-uh-rayt",
+    "definition": "To absolve from blame",
+    "example": "New evidence exonerated the defendant.",
+    "level": "hard"
+  },
+  {
+    "word": "Expedite",
+    "pronunciation": "EK-spi-dyt",
+    "definition": "To make something happen sooner",
+    "example": "We'll expedite your order.",
+    "level": "medium"
+  },
+  {
+    "word": "Exploit",
+    "pronunciation": "ik-SPLOYT",
+    "definition": "To make full use of and benefit from",
+    "example": "They exploited the natural resources.",
+    "level": "easy"
+  },
+  {
+    "word": "Extol",
+    "pronunciation": "ik-STOHL",
+    "definition": "To praise enthusiastically",
+    "example": "Critics extolled the film's brilliance.",
+    "level": "hard"
+  },
+  {
+    "word": "Extravagant",
+    "pronunciation": "ik-STRAV-uh-guhnt",
+    "definition": "Lacking restraint in spending",
+    "example": "The wedding was extravagant.",
+    "level": "medium"
+  },
+  {
+    "word": "Exuberant",
+    "pronunciation": "ig-ZOO-ber-uhnt",
+    "definition": "Filled with lively energy",
+    "example": "The children were exuberant.",
+    "level": "medium"
+  },
+  {
+    "word": "Fabricate",
+    "pronunciation": "FAB-ri-kayt",
+    "definition": "To invent or make up falsely",
+    "example": "He fabricated an excuse.",
+    "level": "medium"
+  },
+  {
+    "word": "Facetious",
+    "pronunciation": "fuh-SEE-shuhs",
+    "definition": "Treating serious issues with humor",
+    "example": "His facetious remarks were inappropriate.",
+    "level": "hard"
+  },
+  {
+    "word": "Facilitate",
+    "pronunciation": "fuh-SIL-i-tayt",
+    "definition": "To make an action easier",
+    "example": "Technology facilitates communication.",
+    "level": "medium"
+  },
+  {
+    "word": "Fallacious",
+    "pronunciation": "fuh-LAY-shuhs",
+    "definition": "Based on a mistaken belief",
+    "example": "The argument was fallacious.",
+    "level": "hard"
+  },
+  {
+    "word": "Fanatical",
+    "pronunciation": "fuh-NAT-i-kuhl",
+    "definition": "Filled with excessive enthusiasm",
+    "example": "He's a fanatical sports fan.",
+    "level": "medium"
+  },
+  {
+    "word": "Fastidious",
+    "pronunciation": "fa-STID-ee-uhs",
+    "definition": "Very attentive to detail",
+    "example": "She's fastidious about cleanliness.",
+    "level": "hard"
+  },
+  {
+    "word": "Feasible",
+    "pronunciation": "FEE-zuh-buhl",
+    "definition": "Possible and practical to do",
+    "example": "The plan is financially feasible.",
+    "level": "medium"
+  },
+  {
+    "word": "Feign",
+    "pronunciation": "FAYN",
+    "definition": "To pretend to be affected by",
+    "example": "She feigned illness to skip work.",
+    "level": "medium"
+  },
+  {
+    "word": "Fervent",
+    "pronunciation": "FUR-vuhnt",
+    "definition": "Having passionate intensity",
+    "example": "She's a fervent believer in justice.",
+    "level": "medium"
+  },
+  {
+    "word": "Flagrant",
+    "pronunciation": "FLAY-gruhnt",
+    "definition": "Conspicuously bad or offensive",
+    "example": "It was a flagrant violation of rules.",
+    "level": "medium"
+  },
+  {
+    "word": "Flaunt",
+    "pronunciation": "FLAWNT",
+    "definition": "To display ostentatiously",
+    "example": "He flaunted his wealth.",
+    "level": "easy"
+  },
+  {
+    "word": "Florid",
+    "pronunciation": "FLOR-id",
+    "definition": "Excessively elaborate or ornate",
+    "example": "His florid writing style was criticized.",
+    "level": "hard"
+  },
+  {
+    "word": "Fluctuate",
+    "pronunciation": "FLUK-choo-ayt",
+    "definition": "To rise and fall irregularly",
+    "example": "Prices fluctuate with demand.",
+    "level": "medium"
+  },
+  {
+    "word": "Foible",
+    "pronunciation": "FOY-buhl",
+    "definition": "A minor weakness or flaw",
+    "example": "Everyone has their foibles.",
+    "level": "hard"
+  },
+  {
+    "word": "Formidable",
+    "pronunciation": "FOR-mi-duh-buhl",
+    "definition": "Inspiring fear through being powerful",
+    "example": "She's a formidable opponent.",
+    "level": "medium"
+  },
+  {
+    "word": "Fortuitous",
+    "pronunciation": "for-TOO-i-tuhs",
+    "definition": "Happening by lucky chance",
+    "example": "The meeting was fortuitous.",
+    "level": "hard"
+  },
+  {
+    "word": "Foster",
+    "pronunciation": "FAW-ster",
+    "definition": "To encourage the development of",
+    "example": "We foster creativity in students.",
+    "level": "easy"
+  },
+  {
+    "word": "Frugal",
+    "pronunciation": "FROO-guhl",
+    "definition": "Economical with money or resources",
+    "example": "She lives a frugal lifestyle.",
+    "level": "easy"
+  },
+  {
+    "word": "Futile",
+    "pronunciation": "FYOO-tl",
+    "definition": "Incapable of producing results",
+    "example": "Their efforts proved futile.",
+    "level": "medium"
+  },
+  {
+    "word": "Garrulous",
+    "pronunciation": "GAR-uh-luhs",
+    "definition": "Excessively talkative",
+    "example": "The garrulous guest dominated conversation.",
+    "level": "hard"
+  },
+  {
+    "word": "Gregarious",
+    "pronunciation": "grih-GAIR-ee-uhs",
+    "definition": "Fond of company; sociable",
+    "example": "She has a gregarious personality.",
+    "level": "medium"
+  },
+  {
+    "word": "Hackneyed",
+    "pronunciation": "HAK-need",
+    "definition": "Overused and lacking originality",
+    "example": "The phrase has become hackneyed.",
+    "level": "hard"
+  },
+  {
+    "word": "Haphazard",
+    "pronunciation": "hap-HAZ-erd",
+    "definition": "Lacking organization or planning",
+    "example": "The arrangement was haphazard.",
+    "level": "medium"
+  },
+  {
+    "word": "Harmonious",
+    "pronunciation": "hahr-MOH-nee-uhs",
+    "definition": "Free from disagreement or discord",
+    "example": "They have a harmonious relationship.",
+    "level": "easy"
+  },
+  {
+    "word": "Haughty",
+    "pronunciation": "HAW-tee",
+    "definition": "Arrogantly superior and disdainful",
+    "example": "She gave him a haughty look.",
+    "level": "medium"
+  },
+  {
+    "word": "Hedonist",
+    "pronunciation": "HEE-duh-nist",
+    "definition": "A person devoted to pleasure",
+    "example": "He's an unrepentant hedonist.",
+    "level": "hard"
+  },
+  {
+    "word": "Heresy",
+    "pronunciation": "HER-uh-see",
+    "definition": "Belief contrary to orthodox doctrine",
+    "example": "His views were considered heresy.",
+    "level": "hard"
+  },
+  {
+    "word": "Hindrance",
+    "pronunciation": "HIN-druhns",
+    "definition": "Something that delays or obstructs",
+    "example": "Lack of funds was a major hindrance.",
+    "level": "easy"
+  },
+  {
+    "word": "Homogeneous",
+    "pronunciation": "hoh-muh-JEE-nee-uhs",
+    "definition": "Of the same kind; uniform",
+    "example": "The population is fairly homogeneous.",
+    "level": "medium"
+  },
+  {
+    "word": "Hypothetical",
+    "pronunciation": "hy-puh-THET-ih-kuhl",
+    "definition": "Based on assumption rather than fact",
+    "example": "Let's consider a hypothetical scenario.",
+    "level": "easy"
+  },
+  {
+    "word": "Iconoclast",
+    "pronunciation": "eye-KON-uh-klast",
+    "definition": "One who attacks cherished beliefs",
+    "example": "He was an iconoclast in his field.",
+    "level": "hard"
+  },
+  {
+    "word": "Idiosyncrasy",
+    "pronunciation": "id-ee-oh-SIN-kruh-see",
+    "definition": "A peculiar behavioral characteristic",
+    "example": "Everyone has their idiosyncrasies.",
+    "level": "hard"
+  },
+  {
+    "word": "Ignominious",
+    "pronunciation": "ig-nuh-MIN-ee-uhs",
+    "definition": "Deserving or causing public disgrace",
+    "example": "His career ended in ignominious defeat.",
+    "level": "hard"
+  },
+  {
+    "word": "Illicit",
+    "pronunciation": "ih-LIS-it",
+    "definition": "Forbidden by law or rules",
+    "example": "They engaged in illicit activities.",
+    "level": "medium"
+  },
+  {
+    "word": "Imminent",
+    "pronunciation": "IM-uh-nuhnt",
+    "definition": "About to happen",
+    "example": "A storm is imminent.",
+    "level": "medium"
+  },
+  {
+    "word": "Immutable",
+    "pronunciation": "ih-MYOO-tuh-buhl",
+    "definition": "Unchanging over time; unchangeable",
+    "example": "The laws of physics are immutable.",
+    "level": "hard"
+  },
+  {
+    "word": "Impartial",
+    "pronunciation": "im-PAHR-shuhl",
+    "definition": "Treating all equally; fair",
+    "example": "The judge remained impartial.",
+    "level": "easy"
+  },
+  {
+    "word": "Impeccable",
+    "pronunciation": "im-PEK-uh-buhl",
+    "definition": "Flawless; without fault",
+    "example": "She has impeccable taste.",
+    "level": "medium"
+  },
+  {
+    "word": "Impede",
+    "pronunciation": "im-PEED",
+    "definition": "To delay or prevent by obstructing",
+    "example": "Traffic will impede our progress.",
+    "level": "medium"
+  },
+  {
+    "word": "Imperious",
+    "pronunciation": "im-PEER-ee-uhs",
+    "definition": "Arrogantly domineering or overbearing",
+    "example": "Her imperious manner offended people.",
+    "level": "hard"
+  },
+  {
+    "word": "Impertinent",
+    "pronunciation": "im-PUR-tn-uhnt",
+    "definition": "Not showing proper respect",
+    "example": "His impertinent questions annoyed her.",
+    "level": "medium"
+  },
+  {
+    "word": "Impervious",
+    "pronunciation": "im-PUR-vee-uhs",
+    "definition": "Not allowing fluid to pass through",
+    "example": "He seemed impervious to criticism.",
+    "level": "hard"
+  },
+  {
+    "word": "Impetuous",
+    "pronunciation": "im-PECH-oo-uhs",
+    "definition": "Acting quickly without thought",
+    "example": "His impetuous decision caused problems.",
+    "level": "medium"
+  },
+  {
+    "word": "Implacable",
+    "pronunciation": "im-PLAK-uh-buhl",
+    "definition": "Unable to be appeased or pacified",
+    "example": "She was an implacable enemy.",
+    "level": "hard"
+  },
+  {
+    "word": "Implicit",
+    "pronunciation": "im-PLIS-it",
+    "definition": "Implied though not directly expressed",
+    "example": "There was an implicit threat in his words.",
+    "level": "medium"
+  },
+  {
+    "word": "Inadvertent",
+    "pronunciation": "in-ad-VUR-tnt",
+    "definition": "Not resulting from deliberate planning",
+    "example": "It was an inadvertent mistake.",
+    "level": "medium"
+  },
+  {
+    "word": "Inane",
+    "pronunciation": "ih-NAYN",
+    "definition": "Lacking sense or meaning; silly",
+    "example": "The inane conversation bored her.",
+    "level": "medium"
+  },
+  {
+    "word": "Incisive",
+    "pronunciation": "in-SY-siv",
+    "definition": "Intelligently analytical and clear",
+    "example": "She made incisive observations.",
+    "level": "hard"
+  }
+  
 ]
