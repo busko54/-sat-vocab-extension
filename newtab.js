@@ -14,6 +14,9 @@ async function init() {
   updateStreak();
   displayWord();
   updateProgress();
+  
+  // Ensure quiz is hidden on startup
+  document.getElementById('quizModal').classList.add('hidden');
 }
 
 async function loadWords() {
@@ -226,6 +229,9 @@ function closeQuiz() {
 
 // Wait for page to load before adding event listeners
 document.addEventListener('DOMContentLoaded', () => {
+  // Ensure quiz is hidden immediately
+  document.getElementById('quizModal').classList.add('hidden');
+  
   // Event listeners for buttons
   document.getElementById('pronounceBtn').addEventListener('click', pronounceWord);
   document.getElementById('nextBtn').addEventListener('click', nextWord);
