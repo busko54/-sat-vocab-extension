@@ -96,36 +96,34 @@ function nextWord() {
   document.getElementById('wordsLearned').textContent = stats.wordsLearned;
 }
 
-// Event listeners for buttons
-document.getElementById('pronounceBtn').addEventListener('click', pronounceWord);
-document.getElementById('nextBtn').addEventListener('click', nextWord);
-
-document.getElementById('skipBtn').addEventListener('click', () => {
+function hideOverlayShowSearch() {
   document.getElementById('vocabOverlay').classList.add('hidden');
   document.getElementById('normalTab').classList.add('visible');
   document.getElementById('searchBox').focus();
-});
+}
 
-// Initialize the extension
-init();
+// Wait for page to load before adding event listeners
+document.addEventListener('DOMContentLoaded', () => {
+  // Event listeners for buttons
+  document.getElementById('pronounceBtn').addEventListener('click', pronounceWord);
+  document.getElementById('nextBtn').addEventListener('click', nextWord);
+  document.getElementById('skipBtn').addEventListener('click', hideOverlayShowSearch);
 
-// Auto-hide vocab overlay after 7 seconds and show search
-setTimeout(() => {
-  document.getElementById('vocabOverlay').classList.add('hidden');
-  document.getElementById('normalTab').classList.add('visible');
-  document.getElementById('searchBox').focus();
-}, 7000);
-
-// Handle search box
-document.getElementById('searchBox').addEventListener('keypress', (e) => {
-  if (e.key === 'Enter') {
-    const query = e.target.value;
-    if (query.includes('.') && !query.includes(' ')) {
-      // Looks like a URL
-      window.location.href = 'https://' + query;
-    } else {
-      // Search Google
-      window.location.href = 'https://www.google.com/search?q=' + encodeURIComponent(query);
+  // Handle search box
+  document.getElementById('searchBox').addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+      const query = e.target.value;
+      if (query.includes('.') && !query.includes(' ')) {
+        window.location.href = 'https://' + query;
+      } else {
+        window.location.href = 'https://www.google.com/search?q=' + encodeURIComponent(query);
+      }
     }
-  }
+  });
+
+  // Initialize the extension
+  init();
+
+  // Auto-hide vocab overlay after 7 seconds
+  setTimeout(hideOverlayShowSearch, 7000);
 });
