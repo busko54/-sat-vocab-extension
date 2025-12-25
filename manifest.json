@@ -1,10 +1,10 @@
 {
-     "manifest_version": 3,
-     "name": "SAT Vocab Master",
-     "version": "1.0",
-     "description": "Learn SAT words every time you open a new tab",
-     "chrome_url_overrides": {
-       "newtab": "newtab.html"
-     },
-     "permissions": ["storage"]
-   }
+  "manifest_version": 3,
+  "name": "Vocab Flash",
+  "version": "1.0",
+  "description": "Master vocabulary effortlessly - learn a new word every time you open a tab",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["storage"]
+}
