@@ -6,14 +6,14 @@ let stats = {
   lastVisit: null
 };
 let quizWords = [];
-let quizAnswers = {};
+let isWidgetMinimized = false;
 
 async function init() {
   await loadWords();
   await loadStats();
+  await loadTopSites();
   updateStreak();
   displayWord();
-  updateProgress();
   
   // Ensure quiz is hidden on startup
   document.getElementById('quizModal').classList.add('hidden');
@@ -31,6 +31,39 @@ async function loadStats() {
   }
   if (result.currentIndex !== undefined) {
     currentWordIndex = result.currentIndex;
+  }
+}
+
+async function loadTopSites() {
+  try {
+    const sites = await chrome.topSites.get();
+    const shortcutsContainer = document.getElementById('shortcuts');
+    
+    // Display up to 8 sites
+    const sitesToShow = sites.slice(0, 8);
+    
+    sitesToShow.forEach(site => {
+      const shortcut = document.createElement('a');
+      shortcut.className = 'shortcut-item';
+      shortcut.href = site.url;
+      shortcut.title = site.title;
+      
+      // Extract domain for favicon
+      const url = new URL(site.url);
+      const domain = url.hostname;
+      
+      shortcut.innerHTML = `
+        <div class="shortcut-icon">
+          <img src="https://www.google.com/s2/favicons?domain=${domain}&sz=64" 
+               onerror="this.style.display='none'; this.parentElement.textContent='🌐'">
+        </div>
+        <div class="shortcut-title">${site.title || domain}</div>
+      `;
+      
+      shortcutsContainer.appendChild(shortcut);
+    });
+  } catch (error) {
+    console.error('Error loading top sites:', error);
   }
 }
 
@@ -70,17 +103,13 @@ function isYesterday(dateString) {
 }
 
 function displayWord() {
+  if (wordsData.length === 0) return;
+  
   const word = wordsData[currentWordIndex];
   
   document.getElementById('word').textContent = word.word;
   document.getElementById('pronunciation').textContent = word.pronunciation;
   document.getElementById('definition').textContent = word.definition;
-  document.getElementById('example').textContent = `"${word.example}"`;
-}
-
-function updateProgress() {
-  const progress = (stats.wordsLearned / wordsData.length) * 100;
-  document.getElementById('progressBar').style.width = progress + '%';
 }
 
 function pronounceWord() {
@@ -96,7 +125,6 @@ function nextWord() {
   
   saveStats();
   displayWord();
-  updateProgress();
   
   document.getElementById('wordsLearned').textContent = stats.wordsLearned;
   
@@ -108,9 +136,33 @@ function nextWord() {
   }
 }
 
-function hideOverlayShowSearch() {
-  // Just redirect to Google instead of showing search box
-  window.location.href = 'https://www.google.com';
+function shuffleWord() {
+  // Get random word index different from current
+  let randomIndex;
+  do {
+    randomIndex = Math.floor(Math.random() * wordsData.length);
+  } while (randomIndex === currentWordIndex && wordsData.length > 1);
+  
+  currentWordIndex = randomIndex;
+  displayWord();
+  saveStats();
+}
+
+function toggleMinimize() {
+  const widget = document.querySelector('.vocab-widget');
+  const btn = document.getElementById('minimizeBtn');
+  
+  isWidgetMinimized = !isWidgetMinimized;
+  
+  if (isWidgetMinimized) {
+    widget.classList.add('minimized');
+    btn.textContent = '+';
+    btn.title = 'Expand';
+  } else {
+    widget.classList.remove('minimized');
+    btn.textContent = '−';
+    btn.title = 'Minimize';
+  }
 }
 
 function shouldShowQuiz() {
@@ -128,7 +180,6 @@ function generateQuiz() {
   
   const questionsContainer = document.getElementById('quizQuestions');
   questionsContainer.innerHTML = '';
-  quizAnswers = {};
   
   quizWords.forEach((word, index) => {
     const questionDiv = document.createElement('div');
@@ -231,10 +282,13 @@ document.addEventListener('DOMContentLoaded', () => {
   // Ensure quiz is hidden immediately
   document.getElementById('quizModal').classList.add('hidden');
   
-  // Event listeners for buttons
+  // Event listeners for vocab widget buttons
   document.getElementById('pronounceBtn').addEventListener('click', pronounceWord);
   document.getElementById('nextBtn').addEventListener('click', nextWord);
-  document.getElementById('skipBtn').addEventListener('click', hideOverlayShowSearch);
+  document.getElementById('shuffleBtn').addEventListener('click', shuffleWord);
+  document.getElementById('minimizeBtn').addEventListener('click', toggleMinimize);
+  
+  // Quiz event listeners
   document.getElementById('submitQuizBtn').addEventListener('click', submitQuiz);
   document.getElementById('continueBtn').addEventListener('click', closeQuiz);
 
@@ -252,7 +306,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Initialize the extension
   init();
-
-  // Auto-hide vocab overlay after 5 seconds
-  setTimeout(hideOverlayShowSearch, 5000);
 });
