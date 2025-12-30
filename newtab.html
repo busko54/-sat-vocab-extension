@@ -2,39 +2,49 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>New Tab</title>
+  <title>Vocab Flash</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="vocabOverlay" class="overlay">
-    <div class="container">
-      <div class="stats">
-        <div class="stat">
-          <span class="stat-number" id="streak">0</span>
-          <span class="stat-label">Day Streak</span>
-        </div>
-        <div class="stat">
-          <span class="stat-number" id="wordsLearned">0</span>
-          <span class="stat-label">Words Learned</span>
-        </div>
+  <!-- Main new tab content -->
+  <div class="new-tab-container">
+    <!-- Search bar -->
+    <div class="search-section">
+      <input type="text" id="searchBox" placeholder="Search Google or type a URL" />
+    </div>
+
+    <!-- Most visited sites -->
+    <div class="shortcuts-grid" id="shortcuts">
+      <!-- Will be populated by JavaScript -->
+    </div>
+  </div>
+
+  <!-- Vocab widget (bottom-right) -->
+  <div class="vocab-widget">
+    <button class="minimize-btn" id="minimizeBtn">−</button>
+    
+    <div class="vocab-content">
+      <div class="vocab-header">
+        <button class="icon-btn" id="pronounceBtn" title="Pronounce">🔊</button>
+        <h3 id="word">Loading...</h3>
       </div>
-      <div class="card">
-        <h1 id="word">Loading...</h1>
-        <div class="pronunciation" id="pronunciation"></div>
-        <div class="definition" id="definition"></div>
-        <div class="example" id="example"></div>
-        
-        <button id="pronounceBtn" class="btn-primary">🔊 Pronounce</button>
-        <button id="nextBtn" class="btn-secondary">Next Word →</button>
-        <button id="skipBtn" class="btn-skip">Skip to Search →</button>
+      
+      <div class="pronunciation" id="pronunciation"></div>
+      <div class="definition" id="definition"></div>
+      
+      <div class="vocab-actions">
+        <button class="btn-small" id="shuffleBtn">🔀 Shuffle</button>
+        <button class="btn-small btn-primary-small" id="nextBtn">Next →</button>
       </div>
-      <div class="progress">
-        <div class="progress-bar" id="progressBar"></div>
+      
+      <div class="vocab-stats">
+        <span>🔥 <span id="streak">0</span> day streak</span>
+        <span>📚 <span id="wordsLearned">0</span> words</span>
       </div>
     </div>
   </div>
 
-  <!-- Quiz Modal -->
+  <!-- Quiz Modal (keep existing) -->
   <div id="quizModal" class="quiz-modal hidden">
     <div class="quiz-container">
       <h2>📝 Quick Quiz!</h2>
@@ -52,11 +62,6 @@
     </div>
   </div>
 
-  <div id="normalTab" class="normal-tab">
-    <div class="search-container">
-      <input type="text" id="searchBox" placeholder="Search Google or type a URL" />
-    </div>
-  </div>
   <script src="newtab.js"></script>
 </body>
 </html>
